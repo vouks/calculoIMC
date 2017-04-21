@@ -11,34 +11,11 @@
 
     
     <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="js/calculaIMC"></script>
+
 
   </head>
   <body background="img/background.jpg">
-
-
-<script type="text/javascript">
-    function CalculaIMC(){
-        var altura=Number(document.getElementById("altura").value);
-        var peso=Number(document.getElementById("peso").value);
-        var imc=peso/Math.pow(altura,2);
-        var result=Math.round(imc*100)/100;
-        var comment="";
-
-        if(result<18.5)
-        comment="abaixo do peso.";
-            else if(result>=18.5 && result<=25)
-            comment="com peso normal.";
-                else if(result>30)
-                comment="com obesidade.";
-
-        alert("Seu IMC é: "+result+", e você está "+comment);
-    }
-
-    function Duvida(){
-        alert("O cálculo do IMC é feito dividindo o peso (em quilogramas) pela altura (em metros) ao quadrado.");
-    }
-
-</script>
 
 <div id="centralizado">
     <table width="250" cellspacing="4" cellpadding="8" border="0" bgcolor="black" align="center">
