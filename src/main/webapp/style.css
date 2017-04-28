@@ -1,21 +1,12 @@
-#centralizado{
-    margin-top: 150px;
-    margin-left: 0px;
+body{
+    background-color: gray;
 }
 
-#botao{
-    background-color: black;
-    color: white;
-}
+legend{
+    text-align: center;
+    color: black;
+    }
 
-#masculino{
-    color: green;
-}
-
-#feminino{
-    color: palevioletred;
-}
-
-#titulo{
-    margin-left: 25px;
+.form-group{
+    color: black;
 }
